@@ -53,7 +53,7 @@
             "required": false,
             "value": "alive"
         },
-        "BIONAME": {
+        "BIO_NAME": {
             "description": "Customizable Auto Bio Name Message!, type a name ot somthing to show with auto bio.",
             "required": false,
             "value": "៚ ᴀᴜᴛᴏ ʙɪᴏ ꜱʏꜱᴛᴇᴍ 🤹🏻‍♂️"
@@ -62,7 +62,7 @@
             "description": "Enter your name here.",
             "required": true
         },
-        "BOTNAME": {
+        "BOT_NAME": {
             "description": "Customizable BOT NAME! Type a Name for your bot.",
             "required": false,
             "value": " *🔥 Ａｌｐｈａ-Ｘ-WA-Bot 🔥* "
@@ -84,6 +84,11 @@
         },
         "SEND_READ": {
             "description": "Write true if you want to throw seen.",
+            "required": true,
+            "value": "true"
+        },
+        "SEND_REACT": {
+            "description": "Write true if you want to auto react to commands.",
             "required": true,
             "value": "true"
         },
@@ -116,6 +121,21 @@
             "description": "Type true if you don't want to appear online.",
             "required": false,
             "value": "true"
+        },
+        "HEROKU": {
+            "description": "If it is running in Heroku, type true.",
+            "required": true,
+            "value": "true"
+        },
+        "HEROKU_API_KEY": {
+            "description": "Heroku API Key.",
+            "required": true,
+            "value": ""
+        },
+        "HEROKU_APP_NAME": {
+            "description": "Heroku APP Name.",
+            "required": true,
+            "value": ""
         }
     }
 }
